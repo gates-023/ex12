@@ -9,7 +9,7 @@ on:
   # Dependency to a forking workflow
   workflow_run:
     workflows: ["dispatch workflow"]
-    type:
+    types:
       - complete
 jobs:
   say_hello:
